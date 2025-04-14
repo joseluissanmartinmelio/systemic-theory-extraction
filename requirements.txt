@@ -1,0 +1,6 @@
+deep-translator
+openai
+pandas
+openpyxl
+pathlib
+flask

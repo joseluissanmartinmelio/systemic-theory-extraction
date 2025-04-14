@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Academic text processing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            background: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 3px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Academic text processing</h1>
+        <form method="post">
+            <label for="author_year">Author (year):</label>
+            <input type="text" id="author_year" name="author_year" required>
+
+            <label for="section_text">Section text:</label>
+            <input type="text" id="section_text" name="section_text" required>
+
+            <label for="source_text">Source text:</label>
+            <input type="text" id="source_text" name="source_text" required>
+
+            <label for="api_key">API Key:</label>
+            <input type="text" id="api_key" name="api_key" required>
+
+            <label for="raw_text">Raw text to processing:</label>
+            <textarea id="raw_text" name="raw_text" rows="10" required></textarea>
+
+            <button type="submit">Process</button>
+        </form>
+        
+        {% if consulted_text %}
+        <h2>Processing result</h2>
+        <div class="output">
+            {{ consulted_text }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
