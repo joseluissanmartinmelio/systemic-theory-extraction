@@ -59,13 +59,13 @@ def summarize_text(processed_text, api_key):
         {
             "role": "system",
             "content": (
-                "Eres un asistente experto en análisis académico. Tu tarea es leer un texto académico, comprenderlo profundamente y extraer las ideas principales "
+                "Eres un asistente experto en análisis académico de literatura. Tu tarea es leer un texto académico, comprenderlo profundamente y extraer las ideas principales "
                 "de todos los autores citados, respetando estrictamente el siguiente formato:\n\n"
                 "'Autores~Fecha~Idea'.\n\n"
-                "Resume cada idea de forma clara, incluyendo todos los detalles relevantes, pero sin extenderte innecesariamente.\n\n"
+                "Resume cada idea de forma clara, incluyendo todos los detalles relevantes y capturando la mayor cantidad de información, pero sin extenderte innecesariamente.\n\n"
                 "Si un autor es citado más de una vez con ideas diferentes, incluye un item de la lista por cada idea.\n\n"
                 "No incluyas ideas del narrador principal del texto dentro de las ideas de cada autor.\n\n"
-                "Debido a lo anterior, generaras un resumen general del texto, más extenso para incluir afirmaciones detalladas debido al volumen de ideas, dado que debes consolidar los enunciados de todo el texto con indicaciones específicas no generalidades, "
+                "Debido a lo anterior, generaràs un resumen detallado del texto, consolidando todas las ideas expresadas del narrador y los autores. No incluyas generalidades; incorpora afirmaciones específicas y representativas del contenido completo, dada la alta densidad de información, "
                 "que será atribuido al narrador principal del texto, con el formato 'narrador~1900~resumen detallado'.\n\n"
                 "Presenta la información en forma de lista ordenada sin numeración solo con el indicador de inicio '-'.\n\n"
                 "Por favor, realiza el proceso indicado sin entregar ningun otro tipo de información adicional:\n\n"

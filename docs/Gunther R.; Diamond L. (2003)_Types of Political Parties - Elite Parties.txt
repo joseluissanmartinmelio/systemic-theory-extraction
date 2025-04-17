@@ -1,0 +1,17 @@
+- narrador~1900~Identifican 15 "especies" de partidos políticos que capturan la esencia de los partidos en diversas épocas históricas, aunque reconocen que esta falta de parsimonia puede dificultar la apreciación de diferencias clave.  
+- narrador~1900~Privilegian la dimensión de organización del partido como definitoria, clasificándolos en géneros: partidos de élite, de masas, étnicos, electorales y de movimiento.  
+- narrador~1900~Presentan una matriz bidimensional donde los partidos varían en delgadez/grosor organizacional (izquierda/derecha) y antigüedad (arriba/abajo), correlacionando estas dimensiones con su contexto histórico.  
+- narrador~1900~Argumentan que el contexto social/tecnológico influye en la efectividad de los tipos de organización partidista, explicando el surgimiento y declive de partidos de élite, de masas y electorales en diferentes épocas.  
+- narrador~1900~Destacan que los partidos pueden persistir en su forma organizacional original incluso cuando las condiciones que los originaron desaparecen, debido a la institucionalización y resistencia al cambio.  
+- narrador~1900~Mencionan que la relación entre cambio social/tecnológico y las estrategias de los líderes partidistas es indeterminada, lo que se discutirá más adelante.  
+- narrador~1900~Explican que los nombres de los tipos de partidos se derivan de la literatura existente o se desarrollaron para categorizar modelos implícitos, como los partidos leninistas, étnicos y personalistas.  
+- narrador~1900~Señalan que algunos términos comunes (como "partido electoral-profesional") corresponden a géneros en su tipología, mientras que otros (como el "partido cartel") no encajan claramente.  
+- narrador~1900~Describen los partidos "basados en élite" como organizacionalmente mínimos, dependientes de redes de élites locales, no ideológicos y centrados en beneficios particularistas para los votantes.  
+- narrador~1900~Mencionan el "Partido Notable" como el primer tipo de partido de élite, surgido en contextos de sufragio limitado y movilización electoral basada en prestigio personal.  
+- narrador~1900~Ejemplifican partidos notables con facciones parlamentarias británicas del siglo XIX, partidos conservadores franceses y brasileños.  
+- narrador~1900~Explican que la expansión del sufragio y la modernización redujeron la relevancia de los partidos notables, dando paso al partido clientelista como respuesta a la movilización de nuevos sectores electorales.  
+- narrador~1900~Definen el partido clientelista como una confederación de élites con apoyo geográfico o personalista, organizado en facciones y basado en intercambios jerárquicos de favores.  
+- narrador~1900~Mencionan que el clientelismo fue prominente en el sur de Europa, América Latina y máquinas políticas urbanas de EE.UU., pero su utilidad disminuyó con la modernización y movilización cognitiva.  
+- narrador~1900~Señalan que, una vez institucionalizado, el clientelismo puede persistir (como en Italia y Japón) pero tiende a derivar en corrupción, lo que eventualmente lleva a su declive electoral.  
+- narrador~1900~Ejemplifican con el Partido Demócrata Cristiano italiano y el Partido Liberal Democrático japonés, cuyas redes clientelistas sobrevivieron a las condiciones que las originaron pero colapsaron debido a escándalos.  
+- narrador~1900~Mencionan casos similares en Tailandia y Filipinas, donde algunos partidos aún retienen características clientelistas.
