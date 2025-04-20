@@ -7,7 +7,14 @@ from flask import Flask, render_template, request
 from deep_translator import GoogleTranslator
 from openai import OpenAI
 
-app = Flask(__name__)
+import os, sys
+
+BASE_PATH = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+TEMPLATES_DIR = os.path.join(BASE_PATH, "templates")
+
+app = Flask(__name__, template_folder=TEMPLATES_DIR)
+
+#app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'docs'
 
 # make sure the directory to save files exists

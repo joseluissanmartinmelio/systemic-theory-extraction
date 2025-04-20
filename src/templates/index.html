@@ -29,6 +29,12 @@
             border: 1px solid #ccc;
             border-radius: 3px;
         }
+        /*---- NUEVO: estilo básico para el contador ----*/
+        #word-counter {
+            margin-top: 5px;
+            font-size: 0.9rem;
+            color: #555;
+        }
         button {
             margin-top: 15px;
             padding: 10px 20px;
@@ -68,6 +74,8 @@
 
             <label for="raw_text">Raw text to processing:</label>
             <textarea id="raw_text" name="raw_text" rows="10" required></textarea>
+            <!-- NUEVO: cuadro que muestra la cantidad de palabras -->
+            <div id="word-counter">Palabras: <span id="word_count">0</span></div>
 
             <button type="submit">Process</button>
         </form>
@@ -79,5 +87,25 @@
         </div>
         {% endif %}
     </div>
+
+    <!-- NUEVO: script para actualizar el contador -->
+    <script>
+        function contarPalabras(texto) {
+            const limpio = texto.trim();
+            if (limpio === '') return 0;
+            return limpio.split(/\s+/).length;
+        }
+
+        function actualizarContador() {
+            const textarea = document.getElementById('raw_text');
+            const contador = document.getElementById('word_count');
+            contador.textContent = contarPalabras(textarea.value);
+        }
+
+        // Inicializar y vincular eventos
+        document.addEventListener('DOMContentLoaded', actualizarContador);
+        document.getElementById('raw_text').addEventListener('input', actualizarContador);
+    </script>
 </body>
 </html>
+

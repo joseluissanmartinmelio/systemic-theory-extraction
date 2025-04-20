@@ -2,5 +2,7 @@ deep-translator
 openai
 pandas
 openpyxl
-pathlib
 flask
+pyinstaller
+
+#pyinstaller --onefile --name MiApp --add-data "src\templates;templates" src\app.py
